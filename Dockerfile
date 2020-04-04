@@ -9,8 +9,6 @@ RUN CGO_ENABLED=0 \
 	GOARCH=amd64 \
 	go build \
 		-ldflags "-s -w" \
-		-a \
-		-installsuffix cgo \
 		-o /work/app \
 		/work/main.go
 
