@@ -1,6 +1,7 @@
 docker run \
 	-it \
 	--init \
+	--rm \
 	--name go-helloworld \
 	go-helloworld
 
